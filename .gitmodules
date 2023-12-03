@@ -1,0 +1,12 @@
+[submodule "taco-cloud-resources-server"]
+	path = taco-cloud-resources-server
+	url = https://github.com/PRID021/taco-cloud-resources-server.git
+[submodule "taco-authentication-server"]
+	path = taco-authentication-server
+	url = https://github.com/PRID021/taco-authentication-server.git
+[submodule "kitchen"]
+	path = kitchen
+	url = https://github.com/PRID021/kitchen.git
+[submodule "kafka-stack-docker-compose"]
+	path = kafka-stack-docker-compose
+	url = https://github.com/conduktor/kafka-stack-docker-compose.git
