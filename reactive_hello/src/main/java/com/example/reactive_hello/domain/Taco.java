@@ -11,15 +11,15 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-class Taco {
+public class Taco {
 
-    @Id
-    private Long id;
+   @Id
+   private Long id;
 
-    private @NonNull String name;
-    private Set<Long> ingredientIds = new HashSet<>();
+   private @NonNull String name;
+   private Set<Long> ingredientIds = new HashSet<>();
 
-     public void addIngredient(Ingredient ingredient){
-        ingredientIds.add(ingredient.getId());
-     }
+   public void addIngredient(Ingredient ingredient) {
+      ingredientIds.add(ingredient.getId());
+   }
 }
