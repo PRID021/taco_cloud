@@ -17,6 +17,17 @@
       "cwd": "${workspaceFolder}",
       "mainClass": "com.example.reactive_hello.ReactiveHelloApplication",
       "projectName": "reactive_hello",
+
+      "envFile": "${workspaceFolder}/.env",
+      "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51685 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=taco-cloud"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-KitchenApplication<kitchen>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.sia.kitchen.KitchenApplication",
+      "projectName": "kitchen",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
     }
